@@ -1,3 +1,3 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.outcomeauditproxy.controllers.MicroserviceHelloWorldController.hello
+POST        /report/outcome        uk.gov.hmrc.outcomeauditproxy.controllers.OutcomeAuditingController.reportOutcome
