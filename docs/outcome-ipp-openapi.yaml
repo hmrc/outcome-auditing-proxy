@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Report action in response to provided insights.
+  title:  Report action in response to provided insights.
   version: 1.0.3
   description: This API provides the ability for IPP to report action taken in response to insights provided.
 paths:
