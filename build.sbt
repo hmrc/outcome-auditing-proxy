@@ -1,6 +1,6 @@
 import uk.gov.hmrc.DefaultBuildSettings.integrationTestSettings
 
-lazy val microservice = Project("outcome-audit-proxy", file("."))
+lazy val microservice = Project("outcome-auditing-proxy", file("."))
   .enablePlugins(play.sbt.PlayScala, SbtDistributablesPlugin)
   .settings(
     majorVersion        := 0,

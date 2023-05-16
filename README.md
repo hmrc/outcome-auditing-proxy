@@ -1,5 +1,5 @@
 
-# outcome-audit-proxy
+# outcome-auditing-proxy
 
 This is a placeholder README.md for a new repository
 
