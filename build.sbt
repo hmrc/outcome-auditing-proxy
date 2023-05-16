@@ -9,6 +9,7 @@ lazy val microservice = Project("outcome-auditing-proxy", file("."))
     // https://www.scala-lang.org/2021/01/12/configuring-and-suppressing-warnings.html
     // suppress warnings in generated routes files
     scalacOptions += "-Wconf:src=routes/.*:s",
+    PlayKeys.playDefaultPort := 9965
   )
   .configs(IntegrationTest)
   .settings(integrationTestSettings(): _*)
