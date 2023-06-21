@@ -1,7 +1,7 @@
 
 # outcome-auditing-proxy
 
-This is a placeholder README.md for a new repository
+outcome-auditing receives and audits insight outcomes.
 
 ### License
 
